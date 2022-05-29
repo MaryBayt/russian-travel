@@ -1,0 +1,26 @@
+.section-narrow {
+  width: calc(100% - 100px*2);
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .section-narrow {
+    padding: 0;
+    width: calc(100% - 48px*2);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .section-narrow {
+    padding: 0px;
+    width: calc(100% - 24px*2);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section-narrow {
+    padding: 0;
+    width: 100%;
+  }
+}

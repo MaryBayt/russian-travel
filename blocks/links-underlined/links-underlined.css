@@ -1,0 +1,9 @@
+.links-underlined {
+  color: #FFFFFF;
+  transition: opacity .5s linear;
+  cursor: pointer;
+}
+
+.links-underlined:hover {
+  opacity: .8;
+}
