@@ -6,7 +6,7 @@
 
 /* section */
 @import url(../blocks/section/section.css);
-@import url(../blocks/section-narrow/);
+@import url(../blocks/section-narrow/section-narrow.css);
 
 /* links */
 @import url(../blocks/links/links.css);
