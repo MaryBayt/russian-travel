@@ -1,4 +1,4 @@
-.place__pic {
+.places__list-pic {
   grid-area: image;
   width: 460px;
   width: 100%;
@@ -7,13 +7,13 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .place__pic {
+  .places__list-pic {
     min-width: 340px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .place__pic {
+  .places__list-pic {
     min-width: 320px;
   }
 }

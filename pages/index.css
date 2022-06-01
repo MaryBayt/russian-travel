@@ -1,8 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
-/* root */
-@import url(../blocks/root/root.css);
+/* body & page */
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
 
 /* section */
 @import url(../blocks/section/section.css);
@@ -17,8 +18,7 @@
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/header/__links-lang/header__links-lang.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__link/_lang/header__link_lang_ru.css);
-@import url(../blocks/header/__link/_lang/header__link_lang_en.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
 
 /* lead */
 @import url(../blocks/lead/lead.css);
@@ -37,19 +37,19 @@
 
 /* photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
 /* places & place */
 @import url(../blocks/places/places.css);
-@import url(../blocks/place/place.css);
-@import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__website/place__website.css);
-@import url(../blocks/place/__url-heading/place__url-heading.css);
-@import url(../blocks/place/__link/place__link.css);
-@import url(../blocks/place/__pic/place__pic.css);
-@import url(../blocks/place/__paragraphs/place__paragraphs.css);
-@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/places/__list/places__list.css);
+@import url(../blocks/places/__list-card/places__list-card.css);
+@import url(../blocks/places/__list-title/places__list-title.css);
+@import url(../blocks/places/__list-website/);
+@import url(../blocks/places/__list-url-heading/places__list-url-heading.css);
+@import url(../blocks/places/__list-link/places__list-link.css);
+@import url(../blocks/places/__list-pic/places__list-pic.css);
+@import url(../blocks/places/__list-paragraphs/places__list-paragraphs.css);
+@import url(../blocks/places/__list-paragraph/places__list-paragraph.css);
 
 /* cover */
 @import url(../blocks/cover/cover.css);

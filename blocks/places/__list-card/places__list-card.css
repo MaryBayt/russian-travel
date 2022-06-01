@@ -1,4 +1,4 @@
-.place {
+.places__list-card {
   display: grid;
   grid-template-columns:  minmax(1fr, max-content) minmax(1fr, max-content);
   gap: 48px 40px;
@@ -10,20 +10,20 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .place {
+  .places__list-card {
     gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .place {
+  .places__list-card {
     gap: 48px 28px;
-    margin: 0 0 80px;
+    margin-bottom: 73px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .place {
+  .places__list-card {
     grid-template-columns: 1fr;
     grid-gap: 32px;
     grid-template-areas:
@@ -31,5 +31,6 @@
         "website"
         "image"
         "text";
+    margin-bottom: 50px;
   }
 }

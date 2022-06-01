@@ -15,19 +15,19 @@
 
 @media screen and (max-width: 1023px) {
   .lead__subtitle {
-    margin: 0 auto 56px;
     width: calc(100% - 64px*2);
   }
 }
 
-@media screen and (max-width: 684px) {
+@media screen and (max-width: 767px) {
   .lead__subtitle {
-    font-size: 16px;
-    line-height: 20px;
+    max-width: 288px;
+    width: calc(100% - 16px*2);
+    margin-bottom: 40px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 684px) {
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
