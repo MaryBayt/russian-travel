@@ -44,7 +44,7 @@
 @import url(../blocks/places/__list/places__list.css);
 @import url(../blocks/places/__list-card/places__list-card.css);
 @import url(../blocks/places/__list-title/places__list-title.css);
-@import url(../blocks/places/__list-website/);
+@import url(../blocks/places/__list-website/places__list-website.css);
 @import url(../blocks/places/__list-url-heading/places__list-url-heading.css);
 @import url(../blocks/places/__list-link/places__list-link.css);
 @import url(../blocks/places/__list-pic/places__list-pic.css);
