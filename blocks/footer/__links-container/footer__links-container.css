@@ -5,9 +5,3 @@
     margin: 64px 0 48px;
   }
 }
-
-@media screen and (max-width: 425px) {
-  .footer__links-container {
-
-  }
-}
