@@ -23,7 +23,7 @@
   .lead__title {
     max-width: 288px;
     width: calc(100% - 16px*2);
-    margin-bottom: 16px;
+    margin: 48px auto 16px;
   }
 }
 
