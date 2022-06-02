@@ -1,4 +1,4 @@
-.places__list-url-heading {
+.place__url-heading {
   text-transform: uppercase;
   color: #AAAAAA;
   font-weight: 400;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .places__list-url-heading {
+  .place__url-heading {
     line-height: 12px;
   }
 }

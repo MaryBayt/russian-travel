@@ -1,21 +1,21 @@
-.places__list-paragraph {
+.place__paragraph {
   font-weight: 400;
   font-size: 18px;
   line-height: 29.34px;
   margin: 0;
 }
 
-.places__list-paragraph:not(:last-child) {
+.place__paragraph:not(:last-child) {
   margin: 0 0 27px;
 }
 
 @media screen and (max-width: 1023px) {
-  .places__list-paragraph {
+  .place__paragraph {
     font-size: 16px;
     line-height: 26.08px;
   }
 
-  .places__list-paragraph:not(:last-child) {
+  .place__paragraph:not(:last-child) {
     margin: 0 0 25px;
   }
 }

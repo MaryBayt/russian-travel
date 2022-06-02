@@ -1,4 +1,4 @@
-.places__list-card {
+.place {
   display: grid;
   grid-template-columns:  minmax(1fr, max-content) minmax(1fr, max-content);
   gap: 48px 40px;
@@ -10,20 +10,20 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .places__list-card {
+  .place {
     gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .places__list-card {
+  .place {
     gap: 48px 28px;
     margin-bottom: 73px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .places__list-card {
+  .place {
     grid-template-columns: 1fr;
     grid-gap: 32px;
     grid-template-areas:
